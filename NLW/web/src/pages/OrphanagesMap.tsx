@@ -3,10 +3,9 @@ import { Link } from 'react-router-dom';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import { FiPlus, FiArrowRight } from 'react-icons/fi'
 import mapMarkerImg from '../images/map-marker.svg';
-import '../styles/pages/orphanages-map.css'
+import '../styles/pages/orphanages-map.css';
 import mapIcon from '../utils/mapIcon';
 import api from '../services/api';
-
 
 interface Orphanage {
     id: number;
@@ -66,9 +65,6 @@ function OrphanagesMap(){
                     )
                 })}
             </Map>
-            
-                
-            
 
             <Link to="/orphanages/create" className="create-orphanage">
                 <FiPlus size={32} color="#fff" />

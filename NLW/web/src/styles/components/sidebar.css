@@ -11,29 +11,27 @@ aside.app-sidebar {
 }
   
 aside.app-sidebar img {
-width: 48px;
+    width: 48px;
 }
 
-aside.app-sidebar footer a,
-aside.app-sidebar footer button {
-width: 48px;
-height: 48px;
+aside.app-sidebar footer a, aside.app-sidebar footer button {
+    width: 48px;
+    height: 48px;
 
-border: 0;
+    border: 0;
 
-background: #12AFCB;
-border-radius: 16px;
+    background: #12AFCB;
+    border-radius: 16px;
 
-cursor: pointer;
+    cursor: pointer;
 
-transition: background-color 0.2s;
+    transition: background-color 0.2s;
 
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-aside.app-sidebar footer a:hover,
-aside.app-sidebar footer button:hover {
-background: #17D6EB;
+aside.app-sidebar footer a:hover, aside.app-sidebar footer button:hover {
+    background: #17D6EB;
 }
